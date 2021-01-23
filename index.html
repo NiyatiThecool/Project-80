@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Placeholder Project</title>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <script src="main.js"></script>
+    </head>
+        <body>
+        <center>
+        <h1 style="margin-top:2px; margin-bottom:20px;">Make paragrphs from input boxes using join function</h1>
+        <div style="float: left;"> 
+            <span>1</span>
+            <input type="text" placeholder="Input Box One" id="parral_input_box_one">
+            <br>
+            <br>
+            <span>2</span>
+            <input type="text" placeholder="Input Box Two" id="parral_input_box_two">
+            <br>
+            <br>
+            <span>3</span>
+            <input type="text" placeholder="Input Box Three" id="parral_input_box_three">
+            <br>
+            <br>
+            <span>4</span>
+            <input type="text" placeholder="Input Box Four" id="parral_input_box_four">
+            <br>
+            <br>
+            <span>5</span>
+            <input type="text" placeholder="Input Box Five" id="parral_input_box_five">
+            <br>
+            <br>
+            <span>6</span>
+            <input type="text" placeholder="Input Box Six" id="parral_input_box_six">
+            <br>
+            <br>
+            <span>7</span>
+            <input type="text" placeholder="Input Box Seven" id="parral_input_box_seven">
+            <br>
+            <br>
+        </div>
+            <button onclick="submit()" id="paragraph_button">get paragraph 1</button>
+            <div style="float: right;">
+                <span>1</span>
+                <input type="text" placeholder="Input Box One" id="parra2_input_box_one">
+                <br>
+                <br>
+                <span>2</span>
+                <input type="text" placeholder="Input Box Two" id="parra2_input_box_two">
+                <br>
+                <br>
+                <span>3</span>
+                <input type="text" placeholder="Input Box Three" id="parra2_input_box_three">
+                <br>
+                <br>
+                <span>4</span>
+                <input type="text" placeholder="Input Box Four" id="parra2_input_box_four">
+                <br>
+                <br>
+                <span>5</span>
+                <input type="text" placeholder="Input Box Five" id="parra2_input_box_five">
+                <br>
+                <br>
+                <span>6</span>
+                <input type="text" placeholder="Input Box Six" id="parra2_input_box_six">
+                <br>
+                <br>
+                <span>7</span>
+                <input type="text" placeholder="Input Box Seven" id="parra2_input_box_seven">
+                <br>
+                <br>
+            </div>
+            <div id="display_name_with_commas">
+            </div>
+            <hr>
+            <div id="diplay_name_without_commas">
+            </div>
+            <div id="display_name" style="font-weight:bold;"></div>
+            <button onclick="sorting()" id="sort_button">Get paragraph 2</button>
+        </center>
+        <h1 id="parra"></h1>
+        <h1 id="parra2"></h1>
+        </body>
+</html>
+
